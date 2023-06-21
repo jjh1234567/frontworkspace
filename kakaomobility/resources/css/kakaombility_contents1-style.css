@@ -1,0 +1,129 @@
+.video-contain {
+    position: absolute;
+    height: 100%;
+    width: 177.778vh;
+    min-width: 100%;
+    min-height: 56.25vw;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0px;
+}
+
+.contents-video {
+    position: absolute;
+    height: 100%;
+    width: 177.778vh;
+    min-width: 100%;
+    min-height: 56.25vw;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0px;
+}
+
+.div_left_text {
+    position: relative;
+    height: 100%;
+    top: 75px;
+    left: 40px;
+}
+
+.left_text {
+    height: 87px;
+    font-size: 100px;
+    font-weight: 800;
+    line-height: 185px;
+    color: rgb(255, 205, 0);
+}
+
+.left_text.text1 {
+    position: relative;
+    /*transition: transform 0.8s ease-in-out 1.6s, opacity 0.8s ease-in-out 1.6s;*/
+    overflow: visible;
+    transform: translateY(0%);
+    opacity: 1;
+}
+
+.left_text.text2 {
+    position: relative;
+    /*transition: transform 0.8s ease-in-out 2s, opacity 0.8s ease-in-out 2s;*/
+    overflow: visible;
+    transform: translateY(0%);
+    opacity: 1;
+}
+
+.left_text.text3 {
+    position: relative;
+    /*transition: transform 0.8s ease-in-out 2.4s, opacity 0.8s ease-in-out 2.4s;*/
+    overflow: visible;
+    transform: translateY(0%);
+    opacity: 1;
+}
+
+.left_text_sub {
+    position: absolute;
+    top: 50%;
+    margin-top: 320px;
+    height: 46px;
+    font-size: 30px;
+    line-height: 46px;
+    color: rgb(255, 255, 255);   
+}
+.left_text_sub.text4 {
+    position: relative;
+    /*transition: transform 1.2s ease-in-out 2.4s, opacity 1.2s ease-in-out 2.4s;*/
+    overflow: visible;
+    transform: translateX(0%);
+    opacity: 1;
+}
+
+.div_right_text {
+    display: table-cell;
+    vertical-align: middle;
+    position: static;
+    height: 100%;
+    position: absolute;
+    top: 165px;
+    right: 60px;
+}
+
+.div_right_sub_text {
+    text-align: right;
+    color: rgb(255, 255, 255);
+}
+
+.span_parent {
+    position: relative;
+    display: block;
+    /*overflow: hidden;*/
+    height: 34px;
+    font-size: 22px;
+    line-height: 75px;
+    font-weight: 800;  
+}
+
+.span_sub1 {
+    display: block;
+}
+
+.strong_parent {
+    display: inline-block;
+    font-size: 72px;
+    line-height: 125px;
+    font-weight: 800;
+    vertical-align: middle;
+}
+
+.em_parent {
+    display: inline-block;
+    overflow: hidden;
+    margin-top: 16px;
+    vertical-align: middle;
+    height: 46px;
+    font-size: 30px;
+    line-height: 46px;
+    font-weight: 800;
+    font-style: normal;
+    text-align: left;
+}
